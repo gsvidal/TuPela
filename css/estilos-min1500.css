@@ -1,0 +1,18 @@
+
+  main {
+    position: relative;
+    top: 55px;
+    width: 76vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+  .pelis-list {
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
+  footer p {
+    position: relative;
+  top:80px;
+  padding-bottom: 25px;
+    display: block;
+  }

@@ -1,0 +1,38 @@
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .navs-container {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .nav-der input, .nav-der button  {
+    display:inline-block;
+    margin: 1.4rem .7rem;
+    align-items: center;
+  }
+  .nav-der button:nth-of-type(2){
+    margin-right: 3rem;
+  }
+  .heroimage-container {
+  height: 180px;
+  position: relative;
+  top: -110px;
+  }
+  .hero img{
+  height: fit-content;
+  object-fit: cover;
+  }
+  main {
+    position: absolute;
+    top:450px;
+
+  }
+  footer p {
+
+    display: none;
+  }
