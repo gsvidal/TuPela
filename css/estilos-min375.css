@@ -29,13 +29,19 @@
   margin: 1.3rem .7rem;
   align-items: center;
   font-size: 1.5rem;
+  
 }
 .nav-der input {
   background-color: rgba(0, 0, 0, 0.3);
   border: 1px solid  rgba(255,255,255,.1);
   padding:1rem 2rem;
-  width: 15rem;
+  width: 9rem;
   border-radius: 2rem;
+  
+}
+.nav-der span {
+  text-shadow: 0px 0px 20px #E0F7FA;
+
 }
 input::placeholder{
   color: rgba(255,255,255,.6);
@@ -58,11 +64,11 @@ input[type=text] {
 }
 .header a {
   
-  text-decoration: none;
-  color: white;
-  margin: 1.3rem;
-  align-items: center;
-  text-shadow: 0px 0px 20px #E0F7FA;
+text-decoration: none;
+color: white;
+margin: 1.1rem;
+align-items: center;
+text-shadow: 0px 0px 20px #E0F7FA;
 }
 .nav-izq a:nth-of-type(1){
   margin-left: 0px;
